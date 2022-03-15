@@ -4,7 +4,7 @@ pipeline{
         jdk 'Myjava'
         maven 'Mymaven'
     }
-	agent {label 'linux_slave'}
+	agent any
       stages{
            stage('Checkout'){
 	    
